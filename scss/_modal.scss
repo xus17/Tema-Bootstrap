@@ -1,0 +1,13 @@
+//Color
+$modal-content-bg:$primary;
+$modal-content-border-color:$dark;
+$modal-footer-border-color: $dark;
+$modal-header-border-color: $dark;
+
+
+ #modal2{
+     background-color: $primary;
+ &:hover{
+      background-color: $secondary;
+    }
+  }

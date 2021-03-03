@@ -1,0 +1,38 @@
+$form-select-border-width: 2px;
+$input-border-color: $primary;
+
+.form{
+    padding-top:5rem ;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: $secondary;
+    color: $color-nav;
+    width: 50%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius:1rem ;
+    .form-group{
+        display: flex ;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+        input{
+            width: 50%;
+            height: 80%;
+            border: 0.2rem solid rgba($body-color, 0.2);
+        }
+        select{
+            width: 50%;
+            height: 80%;
+            border: 0.2rem solid rgba($body-color, 0.2);
+            background: url(../images/arrow.png) no-repeat right #fff;
+        }
+    }
+    .btn{
+        background-color: $primary;
+        margin-left: 1rem;
+    }
+}

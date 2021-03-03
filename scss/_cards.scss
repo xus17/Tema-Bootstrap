@@ -1,0 +1,41 @@
+
+$card-bg: $primary;
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .card{
+        border: 0.2rem solid rgba($body-color, 0.2);
+        font-size: 1.2rem;
+        width: 17rem;
+        margin: 2rem;
+    &:hover{
+        transform: scale(1.1);
+    }
+        .card-img-top{
+            height: 35vh;
+        }
+
+        .card-body{
+            transition: all 0.4s ease-in;
+            &:hover{
+                background-color:$secondary ;
+                transform: translateY(-5rem);
+                -webkit-transform: translateY(-5rem);
+                -moz-transform: translateY(-5rem);
+                -ms-transform: translateY(-5rem);
+                -o-transform: translateY(-5rem);
+        }
+            .btn{
+                display: flex;
+                justify-content: center;
+                background-color: rgba($body-color, 0.2);
+            }
+            .btn:hover{
+                background-color: $dark;
+                color: $secondary;
+            }
+        }
+    }
+}

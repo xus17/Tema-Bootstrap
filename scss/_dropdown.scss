@@ -1,0 +1,53 @@
+//Colores
+$dropdown-bg:$dark;
+$dropdown-border-color:#444;
+$dropdown-divider-bg:#444;
+$dropdown-link-color: white;
+$dropdown-link-hover-color: white;
+$dropdown-link-hover-bg:$primary;
+
+
+
+.form-group-default{
+    border: 0.2rem solid rgba($secondary, 0.9);
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    background-color: $primary;
+    select{
+        background: url(../images/arrow.png) no-repeat right $primary;
+    }
+}
+
+.dropdown-menu.show {
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+}
+
+//Animación para dropdown
+@keyframes slideIn {
+    0% {
+      transform: translateY(2rem);
+      opacity: 0;
+      -webkit-transform: translateY(2rem);
+      -moz-transform: translateY(2rem);
+      -ms-transform: translateY(2rem);
+      -o-transform: translateY(2rem);
+}
+    100% {
+      transform:translateY(0rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(2rem);
+      opacity: 0;
+      -webkit-transform: translateY(2rem);
+      -moz-transform: translateY(2rem);
+      -ms-transform: translateY(2rem);
+      -o-transform: translateY(2rem);
+}
+  }

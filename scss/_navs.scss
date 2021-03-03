@@ -1,0 +1,11 @@
+//Navbar
+.navbar{
+    color:black;
+    .nav-link{
+        &:hover, &:focus{
+            background-color: $primary;
+            border-radius: 2px;
+            color:black;
+        }
+    }
+}
